@@ -31,6 +31,19 @@ const players = [
         { month: "Dec", year: 2024, status: "paid" },
       ],
     },
+
+     {
+      name: "Kevit",
+      admissionNumber: "ADM103",
+      phone: "9876543211",
+      admissionDate: "2024-12-08",
+      feesStatus: "pending",
+      dueDate: "2025-01-08",
+      image: "images/gurman.jpg",
+      feesHistory: [
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
     {
       name: "Vega",
       admissionNumber: "ADM104",
