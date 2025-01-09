@@ -50,7 +50,7 @@ const players = [
         { month: "Sep", year: 2024, status: "paid" },
         { month: "Oct", year: 2024, status: "paid" },
         { month: "Nov", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "pending" },
+        { month: "Dec", year: 2024, status: "paid" },
       ],
     },
     {
@@ -61,20 +61,21 @@ const players = [
       dueDate: "2025-01-29",
       feesHistory: [
         { month: "Nov", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "pending" },
+        { month: "Dec", year: 2024, status: "paid" },
       ],
     },
     {
       name: "Mehransh",
       admissionNumber: "ADM106",
       admissionDate: "2024-10-06",
-      feesStatus: "pending",
+      feesStatus: "paid",
       dueDate: "2025-01-06",
       feesHistory: [
         { month: "Oct", year: 2024, status: "paid" },
         { month: "Nov", year: 2024, status: "paid" },
         { month: "Dec", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "pending" },
+        { month: "Dec", year: 2024, status: "paid" },
+        { month: "Jan", year: 2025, status: "paid" },
       ],
     },
   
@@ -88,7 +89,7 @@ const players = [
       feesHistory: [
         { month: "Oct", year: 2024, status: "paid" },
         { month: "Nov", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "pending" },
+        { month: "Dec", year: 2024, status: "paid" },
       ],
     },
   
@@ -102,7 +103,7 @@ const players = [
         { month: "Sep", year: 2024, status: "paid" },
         { month: "Oct", year: 2024, status: "paid" },
         { month: "Nov", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "pending" },
+        { month: "Dec", year: 2024, status: "paid" },
       ],
     },
   ];
