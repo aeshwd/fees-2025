@@ -1,112 +1,112 @@
 const players = [
-  {
-    name: "Bhavya",
-    admissionNumber: "ADM101",
-    admissionDate: "2024-01-01",
-    feesStatus: "paid",
-    dueDate: "2025-01-01",
-    feesHistory: [
-      { month: "Aug", year: 2024, status: "paid" },
-      { month: "Sep", year: 2024, status: "paid" },
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "paid" },
-      { month: "Jan", year: 2025, status: "paid" },
-    ],
-  },
-  {
-    name: "Gurman",
-    admissionNumber: "ADM102",
-    admissionDate: "2024-08-03",
-    feesStatus: "paid",
-    dueDate: "2025-01-03",
-    feesHistory: [
-      { month: "Aug", year: 2024, status: "paid" },
-      { month: "Sep", year: 2024, status: "paid" },
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "paid" },
-      { month: "Jan", year: 2025, status: "paid" },
-      
-    ],
-  },
+    {
+      name: "Bhavya",
+      admissionNumber: "ADM101",
+      admissionDate: "2024-01-01",
+      feesStatus: "paid",
+      dueDate: "2025-01-01",
+      feesHistory: [
+        { month: "Aug", year: 2024, status: "paid" },
+        { month: "Sep", year: 2024, status: "paid" },
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+        { month: "Jan", year: 2025, status: "paid" },
+      ],
+    },
+    {
+      name: "Gurman",
+      admissionNumber: "ADM102",
+      admissionDate: "2024-08-03",
+      feesStatus: "paid",
+      dueDate: "2025-01-03",
+      feesHistory: [
+        { month: "Aug", year: 2024, status: "paid" },
+        { month: "Sep", year: 2024, status: "paid" },
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+        { month: "Jan", year: 2025, status: "paid" },
+      ],
+    },
 
-   {
-    name: "Kevit",
-    admissionNumber: "ADM103",
-    admissionDate: "2024-12-08",
-    feesStatus: "pending",
-    dueDate: "2025-01-08",
-    feesHistory: [
-      { month: "Dec", year: 2024, status: "paid" },
-    ],
-  },
-  {
-    name: "Vega",
-    admissionNumber: "ADM104",
-    admissionDate: "2024-09-28",
-    feesStatus: "pending",
-    dueDate: "2025-01-28",
-    feesHistory: [
-      { month: "Sep", year: 2024, status: "paid" },
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-    ],
-  },
-  {
-    name: "Vritika",
-    admissionNumber: "ADM105",
-    admissionDate: "2024-11-29",
-    feesStatus: "pending",
-    dueDate: "2025-01-29",
-    feesHistory: [
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-    ],
-  },
-  {
-    name: "Mehransh",
-    admissionNumber: "ADM106",
-    admissionDate: "2024-10-06",
-    feesStatus: "pending",
-    dueDate: "2025-01-06",
-    feesHistory: [
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-    ],
-  },
-  {
-    name: "Sukhmehar",
-    admissionNumber: "ADM109",
-    admissionDate: "2024-10-19",
-    feesStatus: "pending",
-    dueDate: "2025-01-19",
-    feesHistory: [
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-    ],
-  },
- 
- 
-
-  {
-    name: "Garvit",
-    admissionNumber: "ADM116",
-    admissionDate: "2024-09-29",
-    feesStatus: "pending",
-    dueDate: "2025-01-29",
-    feesHistory: [
-      { month: "Sep", year: 2024, status: "paid" },
-      { month: "Oct", year: 2024, status: "paid" },
-      { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-    ],
-  },
-];
+     {
+      name: "Kevit",
+      admissionNumber: "ADM103",
+      admissionDate: "2024-12-08",
+      feesStatus: "pending",
+      dueDate: "2025-01-08",
+      feesHistory: [
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
+    {
+      name: "Vega",
+      admissionNumber: "ADM104",
+      admissionDate: "2024-09-28",
+      feesStatus: "pending",
+      dueDate: "2025-01-28",
+      feesHistory: [
+        { month: "Sep", year: 2024, status: "paid" },
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
+    {
+      name: "Vritika",
+      admissionNumber: "ADM105",
+      admissionDate: "2024-11-29",
+      feesStatus: "pending",
+      dueDate: "2025-01-29",
+      feesHistory: [
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
+    {
+      name: "Mehransh",
+      admissionNumber: "ADM106",
+      admissionDate: "2024-10-06",
+      feesStatus: "paid",
+      dueDate: "2025-01-06",
+      feesHistory: [
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+        { month: "Jan", year: 2025, status: "paid" },
+      ],
+    },
+  
+    
+    {
+      name: "Sukhmehar",
+      admissionNumber: "ADM109",
+      admissionDate: "2024-10-19",
+      feesStatus: "pending",
+      dueDate: "2025-01-19",
+      feesHistory: [
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
+  
+    {
+      name: "Garvit",
+      admissionNumber: "ADM116",
+      admissionDate: "2024-09-29",
+      feesStatus: "pending",
+      dueDate: "2025-01-29",
+      feesHistory: [
+        { month: "Sep", year: 2024, status: "paid" },
+        { month: "Oct", year: 2024, status: "paid" },
+        { month: "Nov", year: 2024, status: "paid" },
+        { month: "Dec", year: 2024, status: "paid" },
+      ],
+    },
+  ];
 
 
 
