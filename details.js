@@ -133,6 +133,28 @@ const players = [
         { month: "Jan", year: 2025, status: "paid" },
       ],
     },
+
+    {
+      name: "Aaradhya",
+      admissionNumber: "ADM119",
+      admissionDate: "2025-01-29",
+      feesStatus: "paid",
+      dueDate: "2025-01-29",
+      feesHistory: [
+        { month: "Jan", year: 2025, status: "paid" },
+      ],
+    },
+
+    {
+      name: "Anaya",
+      admissionNumber: "ADM120",
+      admissionDate: "2025-01-29",
+      feesStatus: "paid",
+      dueDate: "2025-01-29",
+      feesHistory: [
+        { month: "Jan", year: 2025, status: "paid" },
+      ],
+    },
   ];
 
 
