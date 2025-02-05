@@ -41,19 +41,7 @@ const players = [
          { month: "Jan", year: 2025, status: "paid" },
       ],
     },
-    {
-      name: "Vega",
-      admissionNumber: "ADM104",
-      admissionDate: "2024-09-28",
-      feesStatus: "pending",
-      dueDate: "2025-01-28",
-      feesHistory: [
-        { month: "Sep", year: 2024, status: "paid" },
-        { month: "Oct", year: 2024, status: "paid" },
-        { month: "Nov", year: 2024, status: "paid" },
-        { month: "Dec", year: 2024, status: "paid" },
-      ],
-    },
+   
     {
       name: "Vritika",
       admissionNumber: "ADM105",
